@@ -92,8 +92,14 @@ Requires an [Expo EAS](https://expo.dev/eas) account (free tier is sufficient).
 quran-reader/
 ├── App.tsx                   # Root: error boundary, fonts, theme, navigator
 ├── app.json                  # Expo config (bundle IDs, splash, orientation)
+├── index.ts                  # Entry point
+├── babel.config.js
+├── metro.config.js
+├── tsconfig.json
+├── package.json
 ├── assets/
 │   └── fonts/                # Bundled Arabic & Latin fonts
+├── scripts/
 └── src/
     ├── navigation/
     │   └── AppNavigator.tsx  # Stack + tab structure
